@@ -16,16 +16,22 @@ console.log("you: " + playerChoice)
 
 if (computerChoice === playerChoice){
     console.log("it's a draw") 
+
 }else if (computerChoice === "scissors" && playerChoice === "paper"){
     console.log("you lose")
+
 }else if (computerChoice === "rock" && playerChoice === "paper"){
     console.log("you win")
+
 }else if (computerChoice === "scissors" && playerChoice === "rock"){
     console.log("you win")
+
 }else if (computerChoice === "paper" && playerChoice === "rock"){
     console.log("you lose")
+
 }else if (computerChoice === "rock" && playerChoice === "scissors"){
     console.log("you lose")
+    
 }else if (computerChoice === "paper" && playerChoice === "scissors"){
     console.log("you win")
 //Extended mode:    
